@@ -1,0 +1,52 @@
+:root {
+    --green: #4ECCA3;
+}
+
+* {
+    margin: 1rem;
+}
+
+body {
+    background-color: #393E46;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*heading Section*/
+h1 {
+    color: var(--green);
+    font-family: Lobster, cursive;
+    font-size: 8rem;
+    text-shadow: 0.4rem 0 #232931;/*NEW*/
+}
+
+/*Middle Section*/
+.mid {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 35%;
+}
+
+.mid p {
+    color: var(--green);
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    width: 95%;
+}
+
+/*Footer Section*/
+div+p {
+    color: white;
+}
