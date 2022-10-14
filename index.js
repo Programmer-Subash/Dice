@@ -4,6 +4,12 @@ var header = document.querySelector("h1");
 var dice1 = document.querySelector(".player_one img");
 var dice2 = document.querySelector(".player_two img");
 
+var path1 = "images/dice"+player1+".png";
+dice1.setAttribute("src",path1);
+
+var path2 = "images/dice"+player2+".png";
+dice2.setAttribute("src",path2);
+
 if(player1>player2){
     header.textContent = "🚩 Player 1 Wins!";
 }else if(player1<player2){
@@ -12,11 +18,6 @@ if(player1>player2){
     header.textContent = "Draw!";
 }
 
-var path1 = "images/dice"+player1+".png";
-dice1.setAttribute("src",path1);
-
-var path2 = "images/dice"+player2+".png";
-dice2.setAttribute("src",path2);
 
 //Bad Because Too Long
 // switch(player1){
